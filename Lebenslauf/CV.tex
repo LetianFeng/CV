@@ -1,0 +1,184 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% "ModernCV" CV and Cover Letter
+% LaTeX Template
+% Version 1.11 (19/6/14)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Xavier Danaux (xdanaux@gmail.com)
+%
+% License:
+% CC BY-NC-SA 3.0 (http://creativecommons.org/licenses/by-nc-sa/3.0/)
+%
+% Important note:
+% This template requires the moderncv.cls and .sty files to be in the same 
+% directory as this .tex file. These files provide the resume style and themes 
+% used for structuring the document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass[11pt,a4paper,sans]{moderncv} % Font sizes: 10, 11, or 12; paper sizes: a4paper, letterpaper, a5paper, legalpaper, executivepaper or landscape; font families: sans or roman
+
+\moderncvstyle{classic} % CV theme - options include: 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue} % CV color - options include: 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+
+\usepackage{lipsum} % Used for inserting dummy 'Lorem ipsum' text into the template
+
+\usepackage[scale=.82]{geometry} % Reduce document margins
+%\setlength{\hintscolumnwidth}{3cm} % Uncomment to change the width of the dates column
+%\setlength{\makecvtitlenamewidth}{10cm} % For the 'classic' style, uncomment to adjust the width of the space allocated to your name
+
+%----------------------------------------------------------------------------------------
+%	NAME AND CONTACT INFORMATION SECTION
+%----------------------------------------------------------------------------------------
+
+\firstname{Letian} % Your first name
+\familyname{Feng} % Your last name
+
+% All information in this block is optional, comment out any lines you don't need
+\title{ }
+\address{Address}{Eckhardtstr. 20, 64289, Darmstadt}
+\mobile{01573 2022110}
+\email{letian.feng@hotmail.com}
+\photo[110pt][0.4pt]{bewerbung} % The first bracket is the picture height, the second is the thickness of the frame around the picture (0pt for no frame)
+%\quote{"A witty and playful quotation" - John Smith}
+%----------------------------------------------------------------------------------------
+
+\begin{document}
+
+\makecvtitle % Print the CV title
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Education}
+
+\cventry{2014--Now}{Technische Universit{\"a}t Darmstadt}{MSc}{}{\textit{Computer Engineering}}{}
+
+\cventry{2010--2014}{Beijing University of Posts and Telecommunications}{BSc}{}{\textit{Communication Engineering}}{}
+
+%----------------------------------------------------------------------------------------
+%	AWARDS SECTION
+%----------------------------------------------------------------------------------------
+\section{Certifications}
+
+\cventry{Nov 2019}{Huawei Certified Network Associate}{\textsc{Huawei Technologies}}{Co.}{Ltd}{}
+\cventry{Nov 2018}{Modified ScrumMaster}{\textsc{Scrum Alliance\textregistered}}{}{}{}
+%----------------------------------------------------------------------------------------
+%	Skills SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Skills \& Abilities}
+
+\cvitem{Programming}{\textsc{Java, Python, C, C++, MATLAB, LabVIEW}}
+\cvitem{Software\&OS}{\textsc{Git, LaTeX, SQLite, MS Office, Vim; MacOS, Linux, Windows}}
+
+%----------------------------------------------------------------------------------------
+%	Masters SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Masters Thesis}
+
+%\cvitem{Title}{\emph{Technologies and characterization of ferroelectric polymers for biomedical sensors}}
+%\cvitem{Supervisors}{Professor Antonino Fiorillo}
+%\cvitem{Description}{This thesis is based on the implementation of a temperature sensor.}
+
+%----------------------------------------------------------------------------------------
+%	WORK EXPERIENCE SECTION
+%----------------------------------------------------------------------------------------
+
+
+%------------------------------------------------
+
+\section{Work Experience \& Internship}
+
+\cventry{Apr 2016 -- Feb 2017}{Network Engineer \& Project Assistant}{\textsc{iCONNEC GmbH}}{Frankfurt am Main}{}{Participated in IDC construction. Inspected and maintained network devices in multiple datacenters periodically. Tested communication devices of different suppliers and produced performance reports.}
+
+\cventry{Aug 2013 -- Sep 2013}{Department Assistant}{\textsc{Lenovo Group Ltd.}}{Beijing}{}{Analyzed marketing data using MS Office.}
+
+\section{Projects}
+
+\cventry{Sep 2016 --
+	Feb 2017}{Classifying Speech Acts of Forum Posts on E-Learning Platforms}{\textsc{Machine Learning}}{TU Darmstadt}{}{Viewed papers \& designed an appropriate set of speech acts, implemented a speech act classifier on D120 forum data, evaluated different algorithms \& features.}
+
+\cventry{Aug 2016 --
+	Sep 2016}{Cloud IDC Construction}{\textsc{Communication Network}}{iCONNEC GmbH}{}{As project assistant followed up the whole project, including survey, construction, staffing \& resource integration.
+	As network engineer installed and configured network devices \& servers, tested functionality.} 
+
+\cventry{Apr 2016 --
+	Sep 2016}{CEP Query Optimization}{\textsc{Software Engineering}}{TU Darmstadt}{}{Developed a program for Complex Event Processing based on XText, EA \& eMoflon. Knowledge of Java \& UML were used.}
+
+\cventry{Oct 2015 --
+	Mar 2016}{Tunable Matching Network Simulator}{\textsc{Integrated Circuit}}{TU Darmstadt}{}{Developed a GUI-Simulator for design of Tunable Matching Network, which was based on MATLAB.}
+
+%----------------------------------------------------------------------------------------
+%	LANGUAGES SECTION
+%----------------------------------------------------------------------------------------
+
+\section{Languages}
+
+\cvitemwithcomment{English}{Fluent in written and spoken}{CET-6(College English Test)}
+\cvitemwithcomment{German}{Fluent in written and spoken}{DSH-2(Deutsche Sprachprüfung für den Hochschulzugang)}
+\cvitemwithcomment{Chinese}{Native Speaker}{}
+
+%----------------------------------------------------------------------------------------
+%	INTERESTS SECTION
+%----------------------------------------------------------------------------------------
+
+% \section{Interests}
+%
+% \renewcommand{\listitemsymbol}{~} % Changes the symbol used for lists
+% 
+% \cvlistitem{Programming, Football}
+
+%----------------------------------------------------------------------------------------
+%	Coursework SECTION
+%----------------------------------------------------------------------------------------
+
+%\section{Coursework}
+%
+%\renewcommand{\listitemsymbol}{-~} % Changes the symbol used for lists
+%
+%\cvlistdoubleitem{General Computer Science II}{Introduction to Compiler Construction}
+%\cvlistdoubleitem{Computer Systems II}{Sofware Engineering - Project Management}
+%\cvlistdoubleitem{SE - Maintenance and Quality Assurance}{Model-Based Software Development Lab}
+%\cvlistdoubleitem{Real-Time Systems}{Communication Networks II}
+%\cvlistdoubleitem{Big Data und Analytical Applications}{Big Data Project}
+%\cvlistdoubleitem{Software Defined Networking}{TK1: Distributed Systems and Algorithms}
+%\cvlistdoubleitem{Data Mining and Machine Learning}{Multimedia Communication Lab II}
+%\cvlistdoubleitem{Advanced Digital Integrated Circuit Design}{Industrial Colloquium}
+%\cvlistitem{Seminar: Integrated Electronic Systems Design B}
+
+%----------------------------------------------------------------------------------------
+%	COVER LETTER
+%----------------------------------------------------------------------------------------
+
+% To remove the cover letter, comment out this entire block
+
+%\clearpage
+
+%\recipient{HR Department}{Corporation\\123 Pleasant Lane\\12345 City, State} % Letter recipient
+%\date{\today} % Letter date
+%\opening{Dear Sir or Madam,} % Opening greeting
+%\closing{Sincerely yours,} % Closing phrase
+%\enclosure[Attached]{curriculum vit\ae{}} % List of enclosed documents
+
+%\makelettertitle % Print letter title
+
+%\lipsum[1-3] % Dummy text
+
+%\makeletterclosing % Print letter signature
+
+%----------------------------------------------------------------------------------------
+
+\end{document}
+
+
+
+
